@@ -77,7 +77,7 @@ const Wrap = styled.div`
     box-shadow: rgb(0 0 0 / 69%) 0px 26px 30px -10px,
       rgb(0 0 0 / 73%) 0px 16px 10px -10px;
     cursor: pointer;
-    display: block; // ta väck den så flimrar de ej, nåt fel e de här..
+    display: block; // ta väck den så flimrar de ej, nåt fel e de här.. o kolla så img o allt ligger rätt pos...har nog 'ndrat lite för de blev fel när han gjorde de...flimra etc..
 
     position: relative;
     padding: 4px;

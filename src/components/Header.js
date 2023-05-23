@@ -21,7 +21,7 @@ const Header = () => {
       auth
         .signInWithPopup(provider)
         .then((result) => {
-          setUser(result.user); //setUserLoginDetails is tför setUser? var kmr setUser ifrån?
+          setUser(result.user);
         })
         .catch((error) => {
           alert(error.message);
@@ -69,25 +69,25 @@ const Header = () => {
               <img src="/images/home-icon.svg" alt="home" />
               <span>HOME</span>
             </a>
-            {/* måste ändras sen */}
-            <a href="/home">
-              <img src="/images/search-icon.svg" alt="home" />
+
+            <a>
+              <img src="/images/search-icon.svg" alt="" />
               <span>SEARCH</span>
             </a>
-            <a href="/home">
-              <img src="/images/watchlist-icon.svg" alt="home" />
+            <a>
+              <img src="/images/watchlist-icon.svg" alt="" />
               <span>WATCHLIST</span>
             </a>
-            <a href="/home">
-              <img src="/images/original-icon.svg" alt="home" />
+            <a>
+              <img src="/images/original-icon.svg" alt="" />
               <span>ORIGINALS</span>
             </a>
-            <a href="/home">
-              <img src="/images/movie-icon.svg" alt="home" />
+            <a>
+              <img src="/images/movie-icon.svg" alt="" />
               <span>MOVIES</span>
             </a>
-            <a href="/home">
-              <img src="/images/series-icon.svg" alt="home" />
+            <a>
+              <img src="/images/series-icon.svg" alt="" />
               <span>SERIES</span>
             </a>
           </NavMenu>
@@ -184,9 +184,9 @@ const NavMenu = styled.div`
     }
   }
 
-  //   @media (max-width: 768px) {
-  //     display: none;
-  //   }
+  @media (max-width: 900px) {
+    display: none;
+  }
 `;
 
 const Login = styled.a`
@@ -201,6 +201,7 @@ const Login = styled.a`
     background-color: #f9f9f9;
     color: #000;
     border-color: transparent;
+    cursor: pointer;
   }
 `;
 const UserImg = styled.img`
