@@ -1,3 +1,67 @@
+# Title
+
+DisneyClone - A clone of DisneyPlus.(practice webpage)
+
+# Introduction
+
+Why did I create this project?
+-I created this project only for practise purpose, to increase my toolbox.
+
+What particular technology did I want to learn?
+This project I focused on:
+
+-Firebase
+
+-Firebase tools
+
+-Redux
+
+-React
+
+-React-router-dom
+
+-Styled components
+
+-Hooks
+
+-Methods
+
+-Arrays
+
+-Objects
+
+Is it for a non-profit organization?
+-Yes it is, its only for me.
+
+What was the inspiration behind creating the project?
+-I wanted to increase my toolbox and therefore this project
+
+# Technologies applied
+
+-Firebase
+
+-Firebase tools
+
+-Redux
+
+-React
+
+-React-router-dom
+
+-Styled components
+
+-Hooks
+
+-Methods
+
+-Arrays
+
+-Objects
+
+-React-slick
+
+-Slick-carousel
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
